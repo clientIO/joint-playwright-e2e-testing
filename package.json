@@ -1,0 +1,21 @@
+{
+  "name": "ts-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:debug": "PWDEBUG=1 npm run test:chromium",
+    "test:debug-firefox": "PWDEBUG=1 npm run test:firefox",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.22.1"
+  }
+}

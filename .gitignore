@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+
+# Playwright
+tests/visual-regression.spec.ts-snapshots
+test-results
+playwright-report
+
+#
+rappid.tgz

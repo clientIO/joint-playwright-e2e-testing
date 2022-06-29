@@ -1,0 +1,15 @@
+body {
+    font-family: Sans-Serif;
+}
+
+.joint-paper {
+    border: 1px solid black;
+}
+
+h1 {
+    color: #023047;
+}
+
+input {
+    margin-bottom: 1rem;
+}
