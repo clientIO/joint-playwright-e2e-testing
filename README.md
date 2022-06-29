@@ -14,13 +14,13 @@ Make sure you have the following dependencies installed on your system:
 Clone this repository.
 
 ```
-git clone git@github.com:clientIO/{INSERT REPO NAME}.git
+git clone git@github.com:clientIO/joint-playwright-e2e-testing.git
 ```
 
-Change into the `{INSERT REPO NAME}` directory.
+Change into the `joint-playwright-e2e-testing` directory.
 
 ```
-cd {INSERT REPO NAME}
+cd joint-playwright-e2e-testing
 ```
 
 Install Playwright dependencies, and supported browsers. This tutorial and project uses ` "@playwright/test": "^1.22.1"`.
